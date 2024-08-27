@@ -20,7 +20,7 @@ jobs:
     - name: Build and Push the Image to Amazon ECR
       id: build-image
       env:
-        ECR_REGISTRY: public.ecr.aws/j8y2r8j9/
+        ECR_REGISTRY: public.ecr.aws/j8y2r8j9
         ECR_REPOSITORY: json-server-api-example
         IMAGE_TAG: latest
       run: |
